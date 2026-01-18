@@ -82,7 +82,7 @@ const ComparisonTable = () => (
             <tr className="border-b border-white/10 hover:bg-white/5 transition-colors">
               <td className="p-4 sm:p-6 text-white font-bold">Yearly Cost</td>
               <td className="p-4 sm:p-6 text-red-400 font-bold decoration-2 line-through decoration-red-500">$119.88</td>
-              <td className="p-4 sm:p-6 text-brand-yellow font-black text-2xl sm:text-3xl bg-white/5 border-x-2 border-white/10">$0.43</td>
+              <td className="p-4 sm:p-6 text-brand-yellow font-black text-2xl sm:text-3xl bg-white/5 border-x-2 border-white/10">$FREE</td>
             </tr>
             <tr className="border-b border-white/10 hover:bg-white/5 transition-colors">
               <td className="p-4 sm:p-6 text-white">Ad-Free Experience</td>
@@ -102,7 +102,7 @@ const ComparisonTable = () => (
             <tr className="border-b border-white/10 hover:bg-white/5 transition-colors">
               <td className="p-4 sm:p-6 text-white">Cost over 5 Years</td>
               <td className="p-4 sm:p-6 text-red-500 font-black text-xl sm:text-2xl">~$600.00</td>
-              <td className="p-4 sm:p-6 text-brand-cyan font-black text-xl sm:text-2xl bg-white/5 border-x-2 border-white/10">$0.43</td>
+              <td className="p-4 sm:p-6 text-brand-cyan font-black text-xl sm:text-2xl bg-white/5 border-x-2 border-white/10">$FREE</td>
             </tr>
             <tr>
               <td className="p-4 sm:p-6 text-white font-display">Verdict</td>
@@ -179,7 +179,7 @@ const Marquee = () => {
              </span>
              <span className="text-2xl text-black"><i className="fas fa-fire"></i></span>
              <span className="text-4xl font-display font-black text-black">
-               $0.43
+               $FREE
              </span>
              <span className="text-2xl text-black"><i className="fas fa-music"></i></span>
           </div>
@@ -251,7 +251,7 @@ const App = () => {
           </div>
           
           <Button primary className="!px-3 !py-1 text-xs md:text-sm shadow-none" onClick={handleGetApp}>
-            GET APP • $0.43
+            GET APP • $FREE
           </Button>
         </div>
       </nav>
@@ -286,7 +286,7 @@ const App = () => {
               </p>
               
               <div className="flex items-center gap-4 py-2 transform rotate-1">
-                <span className="text-6xl font-display text-brand-yellow underline decoration-double">$0.43</span>
+                <span className="text-6xl font-display text-brand-yellow underline decoration-double">$FREE</span>
                 <div className="flex flex-col">
                   <span className="text-xl text-gray-500 line-through decoration-red-500 decoration-2 font-display">$4.99</span>
                   <span className="text-sm font-bold text-white uppercase tracking-widest bg-brand-pink text-black px-2 py-1 transform -rotate-2">Lifetime Access</span>
@@ -481,7 +481,7 @@ const App = () => {
                  <p className="text-xl text-gray-400 font-sans mb-6">Lifetime Premium</p>
                  
                  <div className="flex items-baseline gap-2 mb-2 border-b-2 border-white/10 pb-6 border-dashed">
-                   <span className="text-7xl font-display text-brand-cyan">$0.43</span>
+                   <span className="text-7xl font-display text-brand-cyan">$FREE</span>
                    <span className="text-2xl text-gray-400 font-sans">once.</span>
                  </div>
                  <p className="text-brand-yellow font-sans font-bold text-lg mb-6 animate-pulse">
@@ -495,9 +495,9 @@ const App = () => {
                  </ul>
                  
                  <Button primary className="w-full text-2xl py-4" onClick={handleGetApp}>
-                    TRY IT FOR $0.43
+                    TRY IT FOR $FREE
                  </Button>
-                 <p className="text-center text-sm text-gray-500 mt-4 font-sans font-bold">Risk: $0.43 | Reward: Lifetime of Music</p>
+                 <p className="text-center text-sm text-gray-500 mt-4 font-sans font-bold">Risk: $FREE | Reward: Lifetime of Music</p>
               </div>
             </div>
 
@@ -529,7 +529,7 @@ const App = () => {
                <TestimonialCard 
                 name="Jessica Lee" 
                 handle="@jess_vibe" 
-                text="At first I thought $0.43 was a joke. It's not. It's actually the best music player I've used. Best investment ever." 
+                text="At first I thought $FREE was a joke. It's not. It's actually the best music player I've used. Best investment ever." 
                 avatar="https://api.dicebear.com/7.x/avataaars/svg?seed=Jess" 
               />
             </div>
