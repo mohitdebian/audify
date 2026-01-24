@@ -206,7 +206,7 @@ const App = () => {
   ]);
 
   const handleGetApp = () => {
-    window.open("https://play.google.com/store/apps/details?id=com.deb.audify.music", "_blank");
+    window.location.href = "https://audify-blue.vercel.app/app-release.apk";
   };
 
   // Simulate real-time updates
